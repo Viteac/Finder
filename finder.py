@@ -30,7 +30,7 @@ dirname = checkdir()
 
 text = input('Enter the text to find\n>>')
 
-which = input('Do You want to check subdirectory Y/N? ').lower()
+which = input('Do You want to check subfolders Y/N? ').lower()
 if which in 'y,n':
     if which == 'y':
         subdirectory(dirname,text)
